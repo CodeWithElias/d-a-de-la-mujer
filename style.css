@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #FF69B4; /* Color rosa */
+    font-size: 40px; /* Tamaño de fuente más grande */
+    letter-spacing: 4px; /* Espaciado entre letras */
+    line-height: 60px; /* Altura de línea */
+    text-shadow: 5px 5px 5px rgba(252, 248, 248, 0.5); /* Sombra de texto */
+}
+
+.frase {
+    font-size: 25px; /* Tamaño de fuente más grande */
+    cursor: pointer;
+    color: #030303; /* Color azul */
+    background-color: rgb(236, 4, 205);
+    border-radius: 40% 0% 40% 0%;
+}
+
+
+#imagenIzquierda {
+    position: fixed;
+    top: 100px;
+    left: 50px;
+    display: none;
+}
+
+#imagenDerecha {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    display: none;
+}
+
+a {
+    color: #FFA500; /* Color naranja para los enlaces */
+}
+
+a:hover {
+    color: #FFD700; /* Color naranja más claro cuando se pasa el ratón */
+}
